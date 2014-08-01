@@ -5,8 +5,8 @@
     <description>A small space for a newbie dev. Small and silly projects are always ongoing. Enjoy!</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Aug 2014 02:52:21 -0400</pubDate>
-    <lastBuildDate>Fri, 01 Aug 2014 02:52:21 -0400</lastBuildDate>
+    <pubDate>Fri, 01 Aug 2014 03:37:51 -0400</pubDate>
+    <lastBuildDate>Fri, 01 Aug 2014 03:37:51 -0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -263,9 +263,9 @@ Message Matches!
         <link>http://yourdomain.com/c++/2014/07/24/huffman-encoding-implementation/</link>
         <guid isPermaLink="true">http://yourdomain.com/c++/2014/07/24/huffman-encoding-implementation/</guid>
         
-        <category>algorithm</category>
-        
         <category>C++</category>
+        
+        <category>algorithm</category>
         
         <category>encoding</category>
         
