@@ -525,6 +525,7 @@ ul.categoryList {
   .site-title,
 .site-title:hover,
 .site-title:visited {
+  margin-top: 30px;
   float: none;
   text-align: center;
 }
@@ -540,6 +541,7 @@ ul.categoryList {
     border: 1px solid #e8e8e8;
     width: 100px;
     padding-left: 0px;
+    opacity: 0.9;
   }
   .navbar h1 {
     font-size: 15px;
@@ -557,8 +559,18 @@ ul.categoryList {
     border-radius: 5px;
     border: 1px solid #e8e8e8;
     width: 50px;
+    opacity: 0.9;
   }
-  .navbar .menu-icon,
+  .navbar .menu-icon{
+    display: block;
+    font-size: 14px;
+    color: #505050;
+    width: 36px;
+    text-align: center;
+    padding-left: 20px;
+    line-height: 40px;
+    height: 36px;
+  }
   .site-nav .menu-icon {
     display: block;
     font-size: 24px;
@@ -588,7 +600,7 @@ ul.categoryList {
     padding: 5px 10px;
     margin: 0;
   }
-
+  
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
   .post-content h3 { font-size: 22px; }
