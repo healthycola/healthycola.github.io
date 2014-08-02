@@ -74,11 +74,10 @@
 
   <header class="post-header">
     <h1>Vector vs. Arrays</h1>
-    <p class="meta">Posted on: Jul 11, 2014</p>
+    <p class="meta">Posted on: Jul 11, 2014 <span class="tags"> <a href="/tags/cplusplus/">C++</a></br></span></p>
   </header>
 
   <article class="post-content">
-  Tagged with: <a href="/tags/cplusplus/">C++</a></br>
   <p>There aren't a whole lot of differences between Vectors and Arrays internally (i.e. in terms of performance). Vectors use an array structure internally but have additional functions to manage it. <!--more-->Some advantages of a vector are as follows:
 <ul>
 <li>You can dynamically allocate vectors without knowing the exact size at the time of conception. This means that handling vectors will be safer in the long run. You need not be extra careful to exceed the boundaries of a vector. Vectors require more space however. If you want to add to a vector, and the vector is at capacity, it will double its capacity and copy all the contents. This will increase memory usage but improve flexibility</li>
