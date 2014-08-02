@@ -533,7 +533,7 @@ ul.categoryList {
   .navbar {
     position: fixed;
     z-index: 10;
-    top: 14px; left: 8px;
+    top: 8px; left: 8px;
     background-color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -600,7 +600,7 @@ ul.categoryList {
     padding: 5px 10px;
     margin: 0;
   }
-  
+
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
   .post-content h3 { font-size: 22px; }
