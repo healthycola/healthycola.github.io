@@ -224,7 +224,7 @@ padding-right: 20px }
   float: right;
 }
 .post .tags a {
-  border: 1px solid #D0D0D0;
+  border-bottom: 1px solid #D0D0D0;
   padding: 3px;
   border-radius: 3px;
   background-color: #DFDFDF;
@@ -234,7 +234,7 @@ padding-right: 20px }
 }
 
 .post .tags a:hover {
-  border: 1px solid #000;
+  border-bottom: 1px solid #FFF;
   padding: 3px;
   border-radius: 3px;
   background-color: #452632;
@@ -392,6 +392,13 @@ ul.categoryList {
   background: #f6f6f6;
   color: #e4844a;
   padding-left: 28px;
+}
+
+ul.posts li {
+  background-color: #EFEFEF;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom: 1px solid #DDD;
 }
 
 .pagination {
