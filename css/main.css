@@ -50,10 +50,10 @@ a:visited:hover { color: #e4844a; text-decoration: none; }
   float: left;
   width: 20%;
   margin-left: 1%;
+  margin-top: 6px;
   padding-right: 1%;
   padding-left: 1%;
   padding-bottom: 1%;
-  border-top: 5px solid #452632;
   border-bottom: 1px solid #e4844a;
 }
 
@@ -186,23 +186,39 @@ a:visited:hover { color: #e4844a; text-decoration: none; }
 }
 
 
-.posts { list-style-type: none; }
+.posts { list-style-type: none;
+padding-left: 20px;
+padding-right: 20px }
 
 .posts li { margin-bottom: 30px; }
 
 .posts .post-link {
   font-size: 24px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   line-height: 1;
+  padding-left: 10px;
+}
+
+.posts .post-excerpt {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5;
 }
 
 .posts .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   color: #818181;
   border-top: 1px dotted #DDD;
   margin-top: 5px;
   font-style: italic;
+}
+
+.posts .comments {
+  font-size: 13px;
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 
