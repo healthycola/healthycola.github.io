@@ -87,6 +87,7 @@ a:visited:hover { color: #e4844a; text-decoration: none; }
   line-height: 80px;
 }
 
+.navbar .menu-icon,
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link,
@@ -531,7 +532,7 @@ ul.categoryList {
     border: 1px solid #e8e8e8;
     width: 50px;
   }
-
+  .navbar .menu-icon,
   .site-nav .menu-icon {
     display: block;
     font-size: 24px;
@@ -541,9 +542,10 @@ ul.categoryList {
     text-align: center;
     line-height: 36px;
   }
-
+  .navbar .menu-icon,
   .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
+  .navbar .trigger,
   .site-nav .trigger {
     clear: both;
     margin-bottom: 5px;
