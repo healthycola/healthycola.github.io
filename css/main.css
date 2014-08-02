@@ -369,7 +369,6 @@ ul.categoryList {
 .categoryList li a:hover {
   background: #f6f6f6;
   color: #e4844a;
-  text-shadow: 0px 2px 3px #DDD;
   padding-left: 28px;
 }
 
@@ -394,6 +393,14 @@ ul.categoryList {
   border-radius: 3px;
   background-color: #452632;
   color: #e4844a;
+}
+
+.rss-subscribe a{
+  color: #e4844a;
+}
+.rss-subscribe{
+  text-align: center;
+  margin-top: 15px;
 }
 .post pre.terminal code { background-color: #333; }
 
