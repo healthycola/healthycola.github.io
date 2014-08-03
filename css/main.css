@@ -212,6 +212,8 @@ padding-right: 20px }
   border-top: 1px dotted #DDD;
   margin-top: 5px;
   font-style: italic;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .posts .comments {
