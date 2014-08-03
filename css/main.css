@@ -395,10 +395,11 @@ ul.categoryList {
 }
 
 ul.posts li {
-  background-color: #EFEFEF;
+  background-color: #F4F4F4;
   padding: 15px;
   border-radius: 5px;
   border-bottom: 1px solid #DDD;
+  margin-bottom: 15px;
 }
 
 .pagination {
