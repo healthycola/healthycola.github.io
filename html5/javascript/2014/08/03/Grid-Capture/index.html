@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About</title>
+    <title>Grid Capture</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A small space for a newbie dev. Small and silly projects are always ongoing. Enjoy!">
-    <link rel="canonical" href="http://healthycola.github.io/about/">
+    <link rel="canonical" href="http://healthycola.github.io/html5/javascript/2014/08/03/Grid-Capture/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -84,18 +84,37 @@
           <div class="post">
 
   <header class="post-header">
-    <h1>About</h1>
+    <h1>Grid Capture</h1>
+    <p class="meta">Posted on: Aug 3, 2014 <span class="tags"> <a href="/tags/html5/">HTML5</a>  <a href="/tags/javascript/">Javascript</a></br></span></p>
   </header>
 
   <article class="post-content">
-  <p>Hi there. On this website, I keep a journal of sorts, talk about projects I am working on or am thinking about, and anything that really tickles my fancy.</p>
+  <p>A few days ago I built a simple game called Grid capture. It was more of an excuse for me to begin tinkering with HTMl5 and javascript, since I’ve never really used either before. 
+<!--more--></p>
 
-<p>I’m a new grad from the <a href="http://uwaterloo.ca">University of Waterloo</a> and have only started working full time very recently. I enjoy developing silly, funky projects for fun and this blog is mainly an excuse for me to practice my communication skills.</p>
+<p><em><b>Purpose:</b> The purpose of the game is quite simple. You play with another person, and each person gets a turn. On their turn, they are allowed to select one un-captured line on the grid. This line belongs to them. When a player captures a line which creates a complete square, they have captured a square. They also get another turn. Otherwise, it is the other player’s turn.</em></p>
 
-<p>I’m currently using the default <a href="http://jekyllrb.com/">jekyllrb.com</a> theme but should be modifying it so that it has its own personality in the near future. This site is hosted via the kind people of <a href="http://github.io">GitHubIO</a>.</p>
+<p>The code right now is functional, but quite messy. It was my first time working with javascritp and it is so simple! I had a bit of a hard time figuring out how to properly manage OOP in it, and I still don’t think I have done it right. I’ll definitely revisit this code again for refactoring.</p>
+
+<p>The game currently only supports 2 players, but I’ve designed it in such a way such that it may be usable for any number of players. I also need to change the HTML page so that it can accept user input to change the size of the grid for each game, the players’ names, colours etc. Hence it is very much a WIP. But for the most part it is complete. I’ll upload a GitHub.IO page when I get a chance for a proper demo.</p>
+
+<p>The code can be checked out at <a href="https://github.com/healthycola/GridCapture">Git Hub</a> if anyone is interested. :)</p>
 
   </article>
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'codebagelsandgibberish'; // required: replace example with your forum shortname
 
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
 </div>
         </div>
       </div>
