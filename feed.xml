@@ -5,8 +5,8 @@
     <description>A small space for a newbie dev. Small and silly projects are always ongoing. Enjoy!</description>
     <link>http://healthycola.github.io/</link>
     <atom:link href="http://healthycola.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Aug 2014 10:50:05 -0400</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2014 10:50:05 -0400</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2014 10:50:39 -0400</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2014 10:50:39 -0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -20,7 +20,9 @@
 
 &lt;p&gt;The game currently only supports 2 players, but I’ve designed it in such a way such that it may be usable for any number of players. I also need to change the HTML page so that it can accept user input to change the size of the grid for each game, the players’ names, colours etc. Hence it is very much a WIP. But for the most part it is complete. I’ll upload a GitHub.IO page when I get a chance for a proper demo.&lt;/p&gt;
 
-&lt;p&gt;The code can be checked out at &lt;a href=&quot;https://github.com/healthycola/GridCapture&quot;&gt;Git Hub&lt;/a&gt; if anyone is interested. :) &lt;code&gt;Edit: I&#39;ve created a simple demo site for this. It can be found right [here](http://healthycola.github.io/GridCapture)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The code can be checked out at &lt;a href=&quot;https://github.com/healthycola/GridCapture&quot;&gt;Git Hub&lt;/a&gt; if anyone is interested. :) &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Edit&lt;/code&gt;: I’ve created a simple demo site for this. It can be found right &lt;a href=&quot;http://healthycola.github.io/GridCapture&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://healthycola.github.io/html5/javascript/2014/08/03/Grid-Capture/</link>
