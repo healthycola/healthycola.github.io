@@ -45,6 +45,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -88,6 +90,34 @@
   <ul class="posts">
     
       <li>
+        <a class="post-link" href="/javascript/2014/08/11/JSLint-tip/">JSLint - "Possible strict violation" for OOP</a><br>
+        <div class="post-excerpt"><p>I’m by no means any expert on javascript. In fact I only recently started learning it (see my Grid Capture post for more info on that). I got JSLint recently to try out. It’s very useful for a newbie like me to learn the proper coding etiquettes in javascript.</p>
+
+<p>Coming from a C++ background, I thrive on using OOP. Hence, using something like the following is commong.</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">Alice</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Alice&quot;</span><span class="p">);</span></code></pre></div>
+
+<p>When I do something like this, JSLint complains that I may be possibly violating <code>strict</code>. Now I searched a lot on how to fix this on the net, and didn’t really come up with anything substantial. Possible remedies included suppressing the warning, or using bind (still not really sure how to us that…). </p>
+
+<p>I did find something that worked for me. I’m not sure if I’m doing something wrong, but it seemed to have made JSLint happy without screwing up the code. I changed the above code to the following:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">Person</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">Alice</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Alice&quot;</span><span class="p">);</span></code></pre></div>
+
+<p>Instead of using the <code>this</code> keyword, which is restricted for global vars (apparently), I simply changed the <code>this</code> to the name of the object (which kind of makes sense I suppose). Anyway, hope that helps someone out!</p>
+
+</div>
+        <span class="post-date">Aug 11, 2014 • <span class="comments"><a href="/javascript/2014/08/11/JSLint-tip/#disqus_thread"> data-disqus->View Comments</a></span></span>
+      </li>
+    
+      <li>
         <a class="post-link" href="/html5/javascript/2014/08/03/Grid-Capture/">Grid Capture</a><br>
         <div class="post-excerpt"><p>A few days ago I built a simple game called Grid capture. It was more of an excuse for me to begin tinkering with HTMl5 and javascript, since I’ve never really used either before. </p>
 
@@ -120,16 +150,6 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
         <span class="post-date">Jul 22, 2014 • <span class="comments"><a href="/fitness/2014/07/22/squatting/#disqus_thread"> data-disqus->View Comments</a></span></span>
       </li>
     
-      <li>
-        <a class="post-link" href="/c++/2014/07/22/autocomplete-word-predictor-simple-trie/">Autocomplete / Word Predictor / Simple Trie</a><br>
-        <div class="post-excerpt"><p>Decided to code up a Simple Trie for kicks. The code is still in the works, but can be accessed on git <a href="https://github.com/healthycola/SimpleWordPredictor/" target="_blank">here</a>.</p>
-
-<p>I had never coded something of nature before, so this was a fun exercise in recursion. A description of a Trie was on <a href="http://en.wikipedia.org/wiki/Trie" target="_blank">wiki</a>, but I found the description described in <a href="http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Tree/Trie/" target="_blank">this</a> site more comprehensible.</p>
-
-</div>
-        <span class="post-date">Jul 22, 2014 • <span class="comments"><a href="/c++/2014/07/22/autocomplete-word-predictor-simple-trie/#disqus_thread"> data-disqus->View Comments</a></span></span>
-      </li>
-    
   </ul>
 
 <div class="pagination">
@@ -144,6 +164,10 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
   
     
       <a href="/page2">2</a>
+    
+  
+    
+      <a href="/page3">3</a>
     
   
 
