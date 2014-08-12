@@ -5,8 +5,8 @@
     <description>A small space for a newbie dev. Small and silly projects are always ongoing. Enjoy!</description>
     <link>http://healthycola.github.io/</link>
     <atom:link href="http://healthycola.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Aug 2014 10:50:39 -0400</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2014 10:50:39 -0400</lastBuildDate>
+    <pubDate>Mon, 11 Aug 2014 23:28:35 -0700</pubDate>
+    <lastBuildDate>Mon, 11 Aug 2014 23:28:35 -0700</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -24,7 +24,7 @@
 
 &lt;p&gt;&lt;code&gt;Edit&lt;/code&gt;: I’ve created a simple demo site for this. It can be found right &lt;a href=&quot;http://healthycola.github.io/GridCapture&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 03 Aug 2014 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 03 Aug 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/html5/javascript/2014/08/03/Grid-Capture/</link>
         <guid isPermaLink="true">http://healthycola.github.io/html5/javascript/2014/08/03/Grid-Capture/</guid>
         
@@ -56,9 +56,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 30 Jul 2014 00:07:55 -0400</pubDate>
-        <link>http://healthycola.github.io/jekyll/update/2014/07/30/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://healthycola.github.io/jekyll/update/2014/07/30/welcome-to-jekyll/</guid>
+        <pubDate>Tue, 29 Jul 2014 21:07:55 -0700</pubDate>
+        <link>http://healthycola.github.io/jekyll/update/2014/07/29/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://healthycola.github.io/jekyll/update/2014/07/29/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
@@ -289,7 +289,7 @@ Message Matches!
 &lt;p&gt;Anyway, I’m gonna head to sleep, but that was fun! Gotta refine the project files up. &lt;del datetime=&quot;2014-07-24T21:09:48+00:00&quot;&gt;I’ll do that later&lt;/del&gt;. &lt;ins datetime=&quot;2014-07-24T21:09:48+00:00&quot;&gt;&lt;a href=&quot;https://github.com/healthycola/HuffmanEncode&quot; target=&quot;_blank&quot;&gt;They’re up now&lt;/a&gt;.&lt;/ins&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 24 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 24 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/24/huffman-encoding-implementation/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/24/huffman-encoding-implementation/</guid>
         
@@ -324,7 +324,7 @@ DeadLift: 125&lt;/p&gt;
 
 &lt;p&gt;I’ve been feeling stronger too, so I really hope this regime is a good path for me.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 22 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/fitness/2014/07/22/squatting/</link>
         <guid isPermaLink="true">http://healthycola.github.io/fitness/2014/07/22/squatting/</guid>
         
@@ -452,7 +452,7 @@ A trie (from retrieval), is a multi-way tree structure useful for storing string
 
 &lt;p&gt;All in all this was a fun exercise. I think I’ll include weights to the words so that they are sorted in a smarter order than this. Still a WIP!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 22 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/22/autocomplete-word-predictor-simple-trie/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/22/autocomplete-word-predictor-simple-trie/</guid>
         
@@ -650,7 +650,7 @@ rotate? y/n: n
 Program exited with code 0.
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/16/2d-matrix-rotator/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/16/2d-matrix-rotator/</guid>
         
@@ -1014,7 +1014,7 @@ Simply go through the hand and count the number of cards with the same value as 
 &lt;p&gt;To find a card we can remove from the hand, I use the brute force method. Which means going through the hand once again and as soon as I hit a card which is not in the mini-hand, I can discard that card.
 &lt;em&gt;Clearly this method can be improved upon….&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/14/simple-rummychecker/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/14/simple-rummychecker/</guid>
         
@@ -1233,7 +1233,7 @@ Simply go through the hand and count the number of cards with the same value as 
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 </description>
-        <pubDate>Sat, 12 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 12 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/12/11-simple-blackjackchecker/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/12/11-simple-blackjackchecker/</guid>
         
@@ -1257,7 +1257,7 @@ Simply go through the hand and count the number of cards with the same value as 
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 11 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/11/vector-vs-arrays/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/11/vector-vs-arrays/</guid>
         
@@ -1338,7 +1338,7 @@ And yourself?&lt;/code&gt;
 &lt;p&gt;The main changes include the usage of vectors which are more scalable and the use of getline to get the strings which include spaces and such. This solution seems more elegant.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 11 Jul 2014 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
         <link>http://healthycola.github.io/c++/2014/07/11/challenge-1-accepting-console-input/</link>
         <guid isPermaLink="true">http://healthycola.github.io/c++/2014/07/11/challenge-1-accepting-console-input/</guid>
         
