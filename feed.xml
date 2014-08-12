@@ -5,15 +5,16 @@
     <description>A small space for a newbie dev. Small and silly projects are always ongoing. Enjoy!</description>
     <link>http://healthycola.github.io/</link>
     <atom:link href="http://healthycola.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Aug 2014 23:39:27 -0700</pubDate>
-    <lastBuildDate>Mon, 11 Aug 2014 23:39:27 -0700</lastBuildDate>
+    <pubDate>Mon, 11 Aug 2014 23:43:32 -0700</pubDate>
+    <lastBuildDate>Mon, 11 Aug 2014 23:43:32 -0700</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>JSLint - &quot;Possible strict violation&quot; for OOP</title>
-        <description>&lt;p&gt;I’m by no means any expert on javascript. In fact I only recently started learning it (see my Grid Capture post for more info on that). I got JSLint recently to try out. It’s very useful for a newbie like me to learn the proper coding etiquettes in javascript.&lt;/p&gt;
+        <description>&lt;p&gt;I’m by no means any expert on javascript. In fact I only recently started learning it (see my Grid Capture post for more info on that). I got JSLint recently to try out. It’s very useful for a newbie like me to learn the proper coding etiquettes in javascript.
+&lt;!-- more !--&gt;&lt;/p&gt;
 
-&lt;p&gt;Coming from a C++ background, I thrive on using OOP. Hence, using something like the following is commong.&lt;/p&gt;
+&lt;p&gt;Coming from a C++ background, I thrive on using OOP. Hence, using something like the following is common.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
